@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18399371-9c14-4cae-a40a-bc63e0622039" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\develop_tools\maven_repository" />
+        <option name="mavenHome" value="D:/develop_tools/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\develop_tools\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="D:\develop_tools\Java\jdk1.8.0_191" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YCNAKpbkIm1E0CQ4AfDcBzp7e5" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SparkWorker">
+    <configuration name="ActorGame" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.akkn.actor.ActorGame" />
+      <module name="akken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.akkn.actor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkMaster" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.akka.spark.master.SparkMaster" />
+      <module name="akken" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 10005 sparkMaster-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.akka.spark.master.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.akka.spark.worker.SparkWorker" />
+      <module name="akken" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 10002 sparkwork-02 127.0.0.1 10005 sparkMaster-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.akka.spark.worker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YellowClient" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.akka.yellowserver.client.YellowClient" />
+      <module name="akken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.akka.yellowserver.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YellowServer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.akka.yellowserver.server.YellowServer" />
+      <module name="akken" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.akka.yellowserver.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ActorGame" />
+      <item itemvalue="Application.SparkMaster" />
+      <item itemvalue="Application.SparkWorker" />
+      <item itemvalue="Application.YellowClient" />
+      <item itemvalue="Application.YellowServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SparkWorker" />
+        <item itemvalue="Application.SparkMaster" />
+        <item itemvalue="Application.YellowClient" />
+        <item itemvalue="Application.YellowServer" />
+        <item itemvalue="Application.ActorGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18399371-9c14-4cae-a40a-bc63e0622039" name="Default Changelist" comment="" />
+      <created>1582425199478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582425199478</updated>
+      <workItem from="1582425200963" duration="4500000" />
+      <workItem from="1582442481030" duration="184000" />
+      <workItem from="1582442683160" duration="119000" />
+      <workItem from="1582442820712" duration="11424000" />
+      <workItem from="1582507786317" duration="612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
